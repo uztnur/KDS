@@ -1,6 +1,6 @@
 ﻿namespace Psikoloji_Analiz_Testi
 {
-    partial class Form2
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -19,15 +19,17 @@
             }
             base.Dispose(disposing);
         }
-        #region Windows Form Designer üretilen kod
+
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Tasarımcı desteği için gerekli metot - bu metodun 
-        ///içeriğini kod düzenleyici ile değiştirmeyin.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+
             this.textSoru = new System.Windows.Forms.TextBox();
             this.btnA = new System.Windows.Forms.Button();
             this.btnB = new System.Windows.Forms.Button();
@@ -134,7 +136,7 @@
             this.btnİleri.UseWaitCursor = true;
             this.btnİleri.Click += new System.EventHandler(this.btnİleri_Click);
             // 
-            // Form2
+            // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,16 +154,17 @@
             this.Controls.Add(this.textSoru);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.Name = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+       
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox textSoru;
+        //private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnA;
         private System.Windows.Forms.Button btnB;
         private System.Windows.Forms.Button btnC;
@@ -169,7 +172,6 @@
         private System.Windows.Forms.Button btnE;
         private System.Windows.Forms.Button btnBasla;
         private System.Windows.Forms.Button btnİleri;
+        private System.Windows.Forms.TextBox textSoru;
     }
 }
-
-

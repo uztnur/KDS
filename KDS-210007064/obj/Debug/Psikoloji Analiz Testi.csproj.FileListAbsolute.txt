@@ -20,3 +20,16 @@ C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\Psikoloji-Analiz-Testi-Bir-G
 C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\Psikoloji-Analiz-Testi-Bir-Gunde-Bir-Proje--32\obj\Debug\Psikoloji Analiz Testi.exe
 C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\Psikoloji-Analiz-Testi-Bir-Gunde-Bir-Proje--32\obj\Debug\Psikoloji Analiz Testi.pdb
 C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\Psikoloji-Analiz-Testi-Bir-Gunde-Bir-Proje--32\obj\Debug\Psikoloji_Analiz_Testi.Form2.resources
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\bin\Debug\Psikoloji Analiz Testi.exe.config
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\bin\Debug\Psikoloji Analiz Testi.exe
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\bin\Debug\Psikoloji Analiz Testi.pdb
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji Analiz Testi.csproj.AssemblyReference.cache
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji_Analiz_Testi.Form1.resources
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji_Analiz_Testi.Form2.resources
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji_Analiz_Testi.Properties.Resources.resources
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji Analiz Testi.csproj.GenerateResource.cache
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji Analiz Testi.csproj.CoreCompileInputs.cache
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji Analiz Testi.exe
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji Analiz Testi.pdb
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji_Analiz_Testi.Form3.resources
+C:\Users\zelih\OneDrive\Masaüstü\Yeni klasör (2)\KDS-210007064\obj\Debug\Psikoloji_Analiz_Testi.Form4.resources

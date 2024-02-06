@@ -30,7 +30,7 @@ namespace Psikoloji_Analiz_Testi
            
 
 
-            this.BackgroundImage = Image.FromFile("C:\\Users\\zelih\\OneDrive\\Masaüstü\\Yeni klasör (2)\\Psikoloji-Analiz-Testi-Bir-Gunde-Bir-Proje--32\\Resources\\Ekran görüntüsü 2024-01-19 191610.png"
+            this.BackgroundImage = Image.FromFile("C:\\Users\\zelih\\OneDrive\\Masaüstü\\Yeni klasör (2)\\KDS-210007064\\Resources\\Ekran görüntüsü 2024-01-19 191610.png"
                );
             this.BackgroundImageLayout = ImageLayout.Stretch; // İstediğiniz boyuta uyacak şekilde resmi germe
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -47,6 +47,8 @@ namespace Psikoloji_Analiz_Testi
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button2
@@ -64,12 +66,30 @@ namespace Psikoloji_Analiz_Testi
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(6)))), ((int)(((byte)(109)))));
             this.label1.Name = "label1";
             // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(6)))), ((int)(((byte)(109)))));
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -81,8 +101,18 @@ namespace Psikoloji_Analiz_Testi
             form2.Show();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+        }
 
-
+        
     }
 }
 

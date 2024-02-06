@@ -1,6 +1,6 @@
 ﻿namespace Psikoloji_Analiz_Testi
 {
-    partial class Form2
+    partial class Form4
     {
         /// <summary>
         /// Required designer variable.
@@ -19,15 +19,15 @@
             }
             base.Dispose(disposing);
         }
-        #region Windows Form Designer üretilen kod
+
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Tasarımcı desteği için gerekli metot - bu metodun 
-        ///içeriğini kod düzenleyici ile değiştirmeyin.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.textSoru = new System.Windows.Forms.TextBox();
             this.btnA = new System.Windows.Forms.Button();
             this.btnB = new System.Windows.Forms.Button();
@@ -43,6 +43,8 @@
             this.textSoru.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(108)))), ((int)(((byte)(205)))));
             this.textSoru.ForeColor = System.Drawing.Color.White;
             this.textSoru.Location = new System.Drawing.Point(111, 160);
+            this.textSoru.Multiline = true;
+            this.textSoru.AutoSize = false;
             this.textSoru.Name = "textSoru";
             this.textSoru.Size = new System.Drawing.Size(506, 66);
             this.textSoru.TabIndex = 7;
@@ -134,12 +136,12 @@
             this.btnİleri.UseWaitCursor = true;
             this.btnİleri.Click += new System.EventHandler(this.btnİleri_Click);
             // 
-            // Form2
+            // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::Psikoloji_Analiz_Testi.Properties.Resources.Ekran_görüntüsü_2024_01_22_001620;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1229, 678);
             this.Controls.Add(this.btnİleri);
@@ -152,24 +154,21 @@
             this.Controls.Add(this.textSoru);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.Name = "Form4";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
         private System.Windows.Forms.TextBox textSoru;
-        private System.Windows.Forms.Button btnA;
-        private System.Windows.Forms.Button btnB;
+        private System.Windows.Forms.Button btnİleri;
+        private System.Windows.Forms.Button btnBasla;
         private System.Windows.Forms.Button btnC;
+        private System.Windows.Forms.Button btnB;
+        private System.Windows.Forms.Button btnA;
         private System.Windows.Forms.Button btnD;
         private System.Windows.Forms.Button btnE;
-        private System.Windows.Forms.Button btnBasla;
-        private System.Windows.Forms.Button btnİleri;
     }
 }
-
-
